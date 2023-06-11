@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Webpage | Contact Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:;base64,=">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfolio</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Send Me a Message</h1>
+        <form action="submit.php" method="post">
+            <div>
+                <section class="wrapper">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="fullname">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                </section>
+                <section class="message">
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" name="message" cols="30" rows="10"></textarea>
+
+                </section>
+            </div>
+            <input type="submit" value="Send Now" class="cta">
+        </form>
+
+    </main>
+    <footer>Copyright &copy;</footer>
+</body>
+
+</html>
